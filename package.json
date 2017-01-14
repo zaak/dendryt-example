@@ -1,0 +1,24 @@
+{
+  "name": "dendryt-example",
+  "version": "1.0.0",
+  "description": "Text recognition example with Dendryt library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "train": "node ./src/training/run.js",
+    "dist": "./node_modules/.bin/webpack"
+  },
+  "author": "pawel.wiaderny@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "dendryt": "zaak/dendryt"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.14.0"
+  }
+}
